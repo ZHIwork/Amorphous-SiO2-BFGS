@@ -79,7 +79,7 @@ void IO::readfromFile()
 		{
 			inverseLatticeVector[i] = 0.0;
 		}
-		for (int i = 0; i < 3 * 3; ++i)
+		for (int i = 0; i < 3; ++i)
 		{
 			inverseLatticeVector[i * 3 + i] = 0.06977393246;
 		}
